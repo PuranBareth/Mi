@@ -1,0 +1,95 @@
+.PreFooter{
+   margin: 5vmax 0 0 0 ;
+   background-color: #fff;
+   padding: 1vmax;
+   padding-bottom: 0;
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.PreFooter > div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgba(66,66,0,0.829);
+    cursor: pointer;
+}
+.PreFooter >div:hover img{
+  fill  :rgb(34,34,34);
+}
+.PreFooter >div:hover p{
+    color  :rgb(34,34,34);
+  }
+  
+.PreFooter span{
+    text-align: left;
+}
+.PreFooter img{
+    width: 30px;
+    height: 30px;
+    transform: scale(2) translateY(-0.2vmax);
+    color: rgba(37,37,37,0.322);
+    margin: 2vmax;
+    background-color: #fff;
+}
+
+/* ------------------PreFooter 2 ----------------*/
+.PreFooter2{
+   display: grid;
+   height: 150px;
+   grid-template-columns: repeat(4,1fr); 
+}
+.PreFooter2 >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PreFooter2 >div>p{
+    color: rgba(0,0,0,0.842);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0;
+}
+.PreFooter2 >div >span{
+    color: rgba(51,51,51,0.842);
+    width: 18vmax;
+    font-size: 1vmax;
+    margin: 0;
+}
+.PreFooter2 >div> input{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 0.5vmax 1vmax;
+    font-size: 1vmax;
+    width: 20.4vmax;
+
+}
+.PreFooter2> div> button{
+    border: none;
+    padding: 0.5vmax;
+    background-color: #fff;
+    outline: none;
+}
+.social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.social > i{
+   cursor: pointer;
+   margin: 1.5vmax;
+   color:rgba(138,138,138,0.705);
+}
+.social > i:hover{
+    color: rgb(94,94,94);
+}
+.puran{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+
+    
+}
